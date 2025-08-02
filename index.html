@@ -1,0 +1,228 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Faisa's Portfolio</title>
+     <link rel="icon" type="image/x-icon" href="/logo.png">
+    <style>
+        
+        body {
+            font-family: 'Arial', sans-serif; 
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7fa; 
+            color: #08394d;
+        }
+
+        marquee {
+            font-size: 1.0em; 
+            color: #070707; 
+            text-align: center;
+            padding: 15px; /* Increased padding */
+            background-color: #e0f7fa; 
+            border-bottom: 3px solid #004d40; 
+            font-weight: bold; /* Bold text */
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #00796b; 
+            border: 1px solid #004d40; 
+            text-align: center; /* Center the tabs */
+        }
+
+        nav li {
+            display: inline-block; /* Display tabs inline */
+            border-right: 1px solid #004d40;
+        }
+
+        nav li:last-child {
+            border-right: none;
+        }
+
+        nav li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px; /* Increased padding */
+            text-decoration: none;
+            transition: background-color 0.3s ease; /* Smooth transition */
+        }
+
+        nav li a:hover {
+            background-color: #004d40; 
+        }
+
+        #about, #education, #interests, #projects, #contact {
+            padding: 30px; /* Increased padding */
+            margin: 20px auto; /* Center blocks and add margin */
+            background-color: #ffffff; 
+            border: 1px solid #b2ebf2; 
+            border-radius: 10px; /* More rounded corners */
+            max-width: 800px; /* Max width for content */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add subtle shadow */
+        }
+    
+img {
+  border: 1px ;
+  border-radius: 2px;
+    height: 200px;
+   object-fit: cover;
+  padding: 5px;
+  width: 150px;
+}
+img {
+  clip-path: circle(50%);
+}
+#dancingImage {
+  position: relative; 
+  width: 200px;
+  height: 200px;
+  /* Add other styles like border, margin, etc. */
+}
+        h2 {
+            color: #00796b; /* Teal color for headings */
+            border-bottom: 2px solid #b2ebf2; /* Light teal border under headings */
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+
+        #contact form {
+            display: grid;
+            gap: 15px; /* Increased gap */
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        #contact label {
+            font-weight: bold;
+            color: #004d40; /* Darker teal for labels */
+        }
+
+        #contact input[type="text"],
+        #contact input[type="email"], /* Added email type */
+        #contact textarea {
+            width: 100%;
+            padding: 10px; /* Increased padding */
+            border: 1px solid #b2ebf2; /* Light teal border */
+            border-radius: 5px; /* Slightly more rounded corners */
+            box-sizing: border-box;
+            font-size: 1em;
+        }
+
+        #contact input[type="submit"] {
+            background-color: #00796b; /* Teal background */
+            color: white;
+            padding: 12px 20px; /* Increased padding */
+            border: none;
+            border-radius: 5px; /* Slightly more rounded corners */
+            cursor: pointer;
+            font-size: 1.1em; /* Larger font size */
+            transition: background-color 0.3s ease; /* Smooth transition */
+        }
+
+        #contact input[type="submit"]:hover {
+            background-color: #004d40; /* Darker teal on hover */
+        }
+
+         #contact p {
+            text-align: center; /* Center contact text */
+            margin-top: 20px;
+            font-size: 1.1em;
+        }
+
+        #contact a {
+            color: #00796b; /* Teal color for the email link */
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+         #contact a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<h1>FAISA'S PORTFOLIO</h1>
+    <p><marquee scrollamount="10">welcome to my portfolio</marquee></p>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Educational Background</a></li>
+            <li><a href="#interests">Interests</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div id="about">
+        <h2>About Me</h2> <!-- Added Heading that has my details -->
+        <p>Hello! I'm Faisa, a passionate and dedicated computer science student with a strong foundation in programming and problem-solving. I am particularly enthusiastic about building efficient and robust software solutions.i love writing fictional books,wrote about 5 that are incomplite.I'm also a computer trainer in a small cyber.I was born in a small town called Gilgil Kenya. Relocated to Garissa because I was looking for a greener pasture. Currently working on writing a book, that’s my passion. Written about 5 books that are incomplete due to lack of motivation and lack of the story flow. I also have a homebased baking career that’s really doing good. I guess that’s not my thing I’m currently a student in Plp doing a course in software engineering. So yeah that’s basically all about me</p>
+        <h3>programming languages I know</h3><p>My favorite programming languages are <strong>C</strong> and <strong>C++</strong> due to their power and control, which allow me to delve deep into system-level programming and algorithm optimization.</p>
+    </div>
+
+    <div id="education">
+        <h2>Educational Background</h2> <!-- Added Heading -->
+        <ul>
+            <li><strong>Certificate in software engineering</strong> -PLP Ongoing </li>
+            <li><strong>Bachelor of Science in Computer Science</strong> - UMMA UNIVERSITY, kajiado Kenya Ongoing</li>
+            <li><strong>Diploma in ICT</strong> -UMMA UNIVERSITY,kajiado Kenya 2022-2023</li>
+            <li><strong>Certificate in ICT</strong> -UMMA UNIVERSITY,kajiado Kenya 2021-2022</li>
+            <li><strong>ICDL Certificate</strong> -ICDL Website,Online 2020 Aug-Dec</li>
+            <li><strong>High School Diploma</strong> -NEP GIRLS, Garissa Kenya (2016-2020)</li>
+            
+        </ul>
+        <a href="faisa (4).docx" download>Download My Document</a>
+    </div>
+
+    <div id="interests">
+        <h2>Interests</h2> <!-- Added Heading -->
+        <p>Beyond coding, I enjoy exploring various activities that fuel my creativity and keep me active.</p>
+        <ul>
+            <li>Reading about technology trends and fantasy novels</li>
+            <li>Hiking in nature to clear my mind and stay fit</li>
+            <li>Playing video games, which often involves problem-solving and strategic thinking</li>
+            <li>Contributing to open-source projects</li>
+            <li>Being an author</li>
+        </ul>
+    </div>
+
+    <div id="projects">
+        <h2>Projects</h2> <!-- Added Heading -->
+        <p>Here are some of the projects I've worked on:</p>
+        <ul>
+        
+             <li><strong>Tried photography</strong> </li>
+             <p>I took this photo of the sky,It's actually my favourite since it calmns me and it was also among my first activities that got good reviews.</p>
+        <img id="dancingImage" src="IMG/sky.jpeg" alt="">
+<li><strong>Sunrise</strong> </li>
+<p>Took this photo while at home ,the rays that day weren't too harsh.It was soo therapeutic and had felt a sense of comfort while it hit my skin.</p>
+        <img id="dancingImage" src="IMG/sunrise.jpeg" alt="">
+<li><strong>Perfect Guava tree</strong> </li>
+<p>This guava tree i planted myselt 5years ago,with no knowledge .I only use to water it.Literally didn't use fertilizers or anything.So yeah it's literally like my baby</p>
+        <img id="dancingImage" src="IMG/tree.jpeg" alt="">
+        </ul>
+    </div>
+
+    <div id="contact">
+        <h2>Get in Touch</h2> <!--In this section one is able to write their contact information -->
+        <form action="submit_form.php" method="post"> 
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="6" required></textarea><br> 
+            <input type="submit" value="Send Message"> 
+        </form>
+<p>You can contact me here<a href="tel:+254726343047 ">+254726343047</a></p>
+<p>&copy;2025 Faisa.All rights reserved.</p>
+
+    </div>
+
+</body>
+</html>
