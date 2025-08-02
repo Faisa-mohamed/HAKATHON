@@ -24,10 +24,14 @@ Welcome to my personal portfolio website! This project showcases my background, 
 
 ## 📂 Folder Structure
 
-/ (root)
 ├── index.html
-├── style.css 
-└── logo.png (favicon/logo image)
+├── style.css (if separated later)
+├── logo.png (favicon/logo image)
+├── IMG/
+│ ├── sky.jpeg
+│ ├── sunrise.jpeg
+│ └── tree.jpeg
+└── faisa (4).docx (attached downloadable document)
 
 
 
